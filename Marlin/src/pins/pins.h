@@ -571,6 +571,8 @@
   #include "stm32f1/pins_TRIGORILLA_PRO.h"      // STM32F1                                env:trigorilla_pro
 #elif MB(FLY_MINI)
   #include "stm32f1/pins_FLY_MINI.h"            // STM32F1                                env:FLY_MINI
+#elif MB(ERYONE_MINI)
+  #include "stm32f1/pins_ERYONE_MINI.h"         // STM32F1                                env:ERYONE_MINI_STM32F103V
 
 //
 // ARM Cortex-M4F

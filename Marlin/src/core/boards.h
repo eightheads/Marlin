@@ -321,6 +321,7 @@
 #define BOARD_CREALITY_V427           4035  // Creality v4.2.7 (STM32F103RE)
 #define BOARD_TRIGORILLA_PRO          4036  // Trigorilla Pro (STM32F103ZET6)
 #define BOARD_FLY_MINI                4037  // FLY MINI (STM32F103RCT6)
+#define BOARD_ERYONE_MINI             4028  // STM32F103V
 
 //
 // ARM Cortex-M4F
