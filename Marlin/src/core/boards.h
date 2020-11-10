@@ -327,6 +327,7 @@
 #define BOARD_TRIGORILLA_PRO          4037  // Trigorilla Pro (STM32F103ZET6)
 #define BOARD_FLY_MINI                4038  // FLY MINI (STM32F103RCT6)
 #define BOARD_FLSUN_HISPEED           4039  // FLSUN HiSpeedV1 (STM32F103VET6)
+#define BOARD_ERYONE_MINI             4040  // STM32F103V
 
 //
 // ARM Cortex-M4F
