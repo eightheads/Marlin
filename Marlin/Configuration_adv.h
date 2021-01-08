@@ -474,7 +474,7 @@
  * Multiple extruders can be assigned to the same pin in which case
  * the fan will turn on when any selected extruder is above the threshold.
  */
-#define E0_AUTO_FAN_PIN FAN1_PIN
+#define E0_AUTO_FAN_PIN -1
 #define E1_AUTO_FAN_PIN -1
 #define E2_AUTO_FAN_PIN -1
 #define E3_AUTO_FAN_PIN -1
@@ -690,7 +690,7 @@
 
   // Feature: Switch into SW mode after a deploy. It makes the output pulse longer. Can be useful
   //          in special cases, like noisy or filtered input configurations.
-  #define BLTOUCH_FORCE_SW_MODE
+  //#define BLTOUCH_FORCE_SW_MODE
 
   /**
    * Settings for BLTouch Smart 3.0 and 3.1
@@ -3475,7 +3475,7 @@
   #define MMU2_SERIAL Serial
 
   // Use hardware reset for MMU if a pin is defined for it
-  #define MMU2_RST_PIN E1_DIAG_PIN
+  //#define MMU2_RST_PIN FIL_RUNOUT2_PIN
 
   // Enable if the MMU2 has 12V stepper motors (MMU2 Firmware 1.0.2 and up)
   //#define MMU2_MODE_12V
@@ -3531,7 +3531,7 @@
    * This mode requires a MK3S extruder with a sensor at the extruder idler, like the MMU2S.
    * See https://help.prusa3d.com/en/guide/3b-mk3s-mk2-5s-extruder-upgrade_41560, step 11
    */
-  #define PRUSA_MMU2_S_MODE
+  //#define PRUSA_MMU2_S_MODE
   #if ENABLED(PRUSA_MMU2_S_MODE)
     #define MMU2_C0_RETRY   5             // Number of retries (total time = timeout*retries)
 
@@ -3550,7 +3550,7 @@
 
   #endif
 
-  //#define MMU2_DEBUG  // Write debug info to serial output
+  #define MMU2_DEBUG  // Write debug info to serial output
 
 #endif // PRUSA_MMU2
 
